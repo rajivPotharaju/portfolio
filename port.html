@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+    <script src="https://kit.fontawesome.com/8b806f81e8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="home">
+        <div id="header" style="z-index: 1;">
+            <nav>
+                <h1 style="margin-left: 60px;"> <B><span>RAJIV</span> POTHARAJU</B></h1>
+                <ul>
+                    <li><a href="#home"><b>Home</b></a></li>
+                    <li><a href="#about"><b>About</b></a></li>
+                    <li><a href="#projects"><b>Projects</b></a></li>
+                    <li><a href="#contact"><b>Contact</b></a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+        <!--intro section-->
+        <img src="images/rajivpassport.png (1).jpg" id="mypic">
+        <div class="container">
+            <div class="header-text">
+                <p>Hi,I'm</p>
+                <h1><span>RAJIV</span> POTHARAJU</h1>
+                <a href="/web/resumemain.pdf" class="button">Download CV</a>
+                <a href="#contact" class="button">Hire Me</a>
+            </div>
+        </div>   
+    </div>
+    
+    <!----about me------------------------------------------------------->
+    <br><br><br><br><br><br><br><br>
+
+    <div id="about">
+        <h1 class="sub-title1"><b style="font-size: 40px;">About Me</b></h1>
+        <P id="at_para">
+        <pre style="font-size: 20px;">
+                    I enjoy taking complex problems and turning them into simple and beautiful interface designs and I also love the logic and 
+                    structure of coding and always strive to write elegant and efficient code:whether it be Web Development(HTML,CSS)or in 
+                    Programming Languages(c++,java) and  I am passionate learner who is seeking for learning more and more.
+                    </pre>
+        </P>
+        <div id="table">
+            <div class="rowtabs">
+                <div class="tabs">
+                    <button class="tab-btns active-btn" id="skills-btn" onclick="skillsbtn()">Skills</button>
+                    <button class="tab-btns" id="edu-btn"  onclick="edubtn()">Education</button>
+                </div>
+                <div class="parent-box">
+                    <div class="tab-contents active-content" id = "skills">
+                        <div class="skill-main">
+                            <div class="skill-set" >
+                                <i style=" color: black;"  class="fa-sharp fa-solid fa-globe"></i><br><br>
+                                    <header style="color: red;"><b>Web Technologies</b></header><br>
+                                    <div class="list">
+                                        <label >HTML</label>
+                                        <i style=" color: black;"  class="fa-brands fa-html5"></i>
+                                    </div>
+                                    <div class="list">
+                                        <label >CSS</label>
+                                        <i style=" color: black;" class="fa-brands fa-css3-alt"></i>
+                                    </div>
+                                    <div class="list">
+                                        <label >JAVASCRIPT</label>
+                                        <i style=" color: black;"  class="fa-brands fa-square-js"></i>
+                                    </div>
+                            </div>
+                            <div class="skill-set">
+                                <i style=" color: black;" class="fa-solid fa-computer"></i><br><br>
+                                    <header style="color: red;"><b>Programming</b></header><br>
+                                    <div class="list">
+                                        <label >C++</label>
+                                        <img src="/images/cpp.png">
+                                    </div>
+                                    <div class="list">
+                                        <label >Java</label>
+                                        <i style=" color: black;" class="fa-brands fa-java"></i>
+                                    </div>
+                                    <div class="list">
+                                        <label >Python</label>
+
+                                        <i style=" color: black;" class="fa-brands fa-python"></i>
+                                    </div>
+                                    <div class="list">
+                                        <label >DataStuctures</label>
+                                        <img src="/images/DS.png">
+                                    </div>
+                                    <div class="list">
+                                        <label >SQL</label>
+                                        <i style=" color: black; "  class="fa-solid fa-database"></i>
+                                    </div>
+                            </div>
+                            <div class="skill-set">
+                                <i style=" color: black;" class="fa-solid fa-mobile-screen"></i><br><br>
+                                    <header style="color: red;"><b>App Development</b></header><br>
+                                    <div class="list">
+                                        <label >Kotlin</label>
+                                        <img src="/images/kotlin.png">
+                                    </div>
+                                    <div class="list">
+                                        <label >android</label>
+                                        <i style="color: black;" class="fa-brands fa-android"></i>
+                                    </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="tab-contents" id="education">
+                         <div class="leftcol educol">
+                            <div class="edubox"> 
+                                <h5>2020 - 2024</h5><h4>Bachelor's Degree</h4><p>Computer Science and Engineering | Ace Engineering College , 
+                                    Hyderabad -  CGPA : 7.81 </p>
+                            </div>
+                            <div class="edubox">
+                                <h5>2018 - 2020</h5><h4>Intermediate</h4><p>MPC | SR Junior College,
+                                Hyderabad | CGPA : 8.7</p>
+                            </div>
+                            <div class="edubox">
+                                <h5>2018</h5><h4>High School</h4><p>X (SSC) |
+                                    Sri Harsha High School , Warangal | CGPA : 9.5</p>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------project section------------------------------------------------------------------------>
+    <div id="projects">
+        <h1 class="title-txt ptitle">Projects</h1>
+        <div class="project-list">
+            <div class="plist">
+                <img class="workimg" src="images/rajiv.png">
+                <div class="layer">
+                    <h3>Personal Portfolio</h3>
+                    <p>A well desinged and attractive , animated Personal portfolio website</p>
+                    <a href=""><i style="color:white; " class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="plist">
+                <img class="workimg" src="images/higia.jpg">
+                <div class="layer">
+                    <h3>Higia App</h3>
+                    <p>Streamlined healthcare platform resolves offline appointment challenges with 
+                        seamless login and document management, providing users instant access 
+                        to ambulance tracking, medicine reminders, emergency doctor consultations, and appointment booking. </p>
+                    <a href="/web/health care/" target="_blank"><i style="color:white;" class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------------contact me -------------------------------------------->
+    <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1><br><br><br><br><br>
+                        <p><i class="fa-sharp fa-solid fa-envelope"></i><b> rajivpotharaju2412@gmail.com</b></p>
+                        <p><i class="fa-sharp fa-solid fa-phone"></i><b> +91 9848130591</b></p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/_mr_rajiv/?next=%2F"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/rajiv-potharaju-21b78a247/"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/rajivPotharaju"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet" id="myForm">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea type="Message" name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="button" onclick="myFunction()">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright"><br><br><br>
+            <p>copyright <i class="fa-sharp fa-solid fa-copyright"></i> RAJIV POTHARAJU 2022</p><BR><br>
+        </div>
+    </div>
+    </div>
+  <!--about --->
+  <script>
+  var skillsBtn = document.getElementById("skills-btn")
+ var eduBtn = document.getElementById("edu-btn")
+ var skills = document.getElementById("skills")
+ var education = document.getElementById("education")
+ function skillsbtn(){
+    skillsBtn.classList.add('active-btn')
+    eduBtn.classList.remove('active-btn')
+    skills.classList.add('active-content')
+    education.classList.remove('active-content')
+ }
+ function edubtn(){
+    skillsBtn.classList.remove('active-btn')
+    eduBtn.classList.add('active-btn')
+    skills.classList.remove('active-content')
+    education.classList.add('active-content')
+ }
+
+</script>
+   
+    <!----contact-->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyN8e4sK8XpZDemq3hZbutiikMJMYuhiYPZHgOwkZP6iJ1NA3V1-g5d0gzeBfKrzM_BVg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script>
+        function myFunction() {
+          document.getElementById("myForm").reset();
+        }
+        </script>
+</body>
+</html>
